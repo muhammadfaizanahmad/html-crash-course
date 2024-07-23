@@ -3,11 +3,10 @@
 <!-- The <!DOCTYPE html> declaration is used to define the document type and version of HTML being used. In modern web development, this declaration specifies that the document is an HTML5 document. -->
 
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <!-- UTF-8 stands for "Unicode Transformation Format - 8-bit."  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- In HTML, a meta tag is used to provide metadata about the HTML document. Metadata is information about the data on the page, which   doesn't appear on the web page itself but is processed by web browsers and search engines. Meta tags are placed inside the <head>   section   of the HTML document.
 
@@ -29,50 +28,97 @@
         
     Meta tags can be used to convey a variety of other information to the browser or to external services, making them a versatile tool increating HTML documents. -->
 
-
     <title>HTML CRASH COURSE</title>
-</head>
+  </head>
 
-<body>
-
-    <!-- BASIC HTML -->
+  <body>
+    <!-- HEADING AND PARAGRAPH TAG -->
 
     <h1>Heading</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas cupiditate quod placeat fugit expedita
-        ad, quasi aliquam eaque illo ut porro exercitationem, dolorum similique delectus quibusdam, nisi voluptatem?</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
+      cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
+      porro exercitationem, dolorum similique delectus quibusdam, nisi
+      voluptatem?
+    </p>
     <h2>Heading</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas cupiditate quod placeat fugit expedita
-        ad, quasi aliquam eaque illo ut porro exercitationem, dolorum similique delectus quibusdam, nisi voluptatem?</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
+      cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
+      porro exercitationem, dolorum similique delectus quibusdam, nisi
+      voluptatem?
+    </p>
     <h3>Heading</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas cupiditate quod placeat fugit expedita
-        ad, quasi aliquam eaque illo ut porro exercitationem, dolorum similique delectus quibusdam, nisi voluptatem?</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
+      cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
+      porro exercitationem, dolorum similique delectus quibusdam, nisi
+      voluptatem?
+    </p>
     <h4>Heading</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas cupiditate quod placeat fugit expedita
-        ad, quasi aliquam eaque illo ut porro exercitationem, dolorum similique delectus quibusdam, nisi voluptatem?</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
+      cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
+      porro exercitationem, dolorum similique delectus quibusdam, nisi
+      voluptatem?
+    </p>
     <h5>Heading</h5>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas cupiditate quod placeat fugit expedita
-        ad, quasi aliquam eaque illo ut porro exercitationem, dolorum similique delectus quibusdam, nisi voluptatem?</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
+      cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
+      porro exercitationem, dolorum similique delectus quibusdam, nisi
+      voluptatem?
+    </p>
     <h6>Heading</h6>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas cupiditate quod placeat fugit expedita
-        ad, quasi aliquam eaque illo ut porro exercitationem, dolorum similique delectus quibusdam, nisi voluptatem?</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
+      cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
+      porro exercitationem, dolorum similique delectus quibusdam, nisi
+      voluptatem?
+    </p>
+
+    <!-- ORDERED AND UNORDERED LIST TAG -->
+
+    <ol>
+      <li>Cats</li>
+      <li>Dogs</li>
+      <li>Parrots</li>
+    </ol>
+
+    <ul>
+      <li>Coffee</li>
+      <li>Soft Drink</li>
+      <li>Fresh Juice</li>
+    </ul>
+
+    <!-- ANCHOR TAG -->
 
     <a href="https://youtube.com" target="">YouTube</a>
 
-    <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630"
-        alt="Tree Image">
+    <!-- IMAGE TAG -->
 
-    <!-- INTERMEDIATE HTML -->
+    <img
+      src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630"
+      alt="Tree Image"
+    />
+
+    <!-- DIV AND SPAN TAG -->
+
+    <div>Hello World</div>
+    <span>Hello World</span>
+
+    <!-- FORM ELEMENT -->
 
     <form>
-        <label for="username">Username</label>
+      <label for="username">Username</label>
 
-        <!-- for -->
+      <!-- for -->
 
-        <!-- The for attribute in the <label> tag specifies which form control (like an <input>, <textarea>, or <select>) the label is associated with. It links the label to the form control by matching the value of the for attribute with the id of the form control. This makes the form more accessible and easier to use, as clicking on the label will focus or activate the associated form control. -->
+      <!-- The for attribute in the <label> tag specifies which form control (like an <input>, <textarea>, or <select>) the label is associated with. It links the label to the form control by matching the value of the for attribute with the id of the form control. This makes the form more accessible and easier to use, as clicking on the label will focus or activate the associated form control. -->
 
-        <!-- Form Control -->
+      <!-- Form Control -->
 
-        <!-- A form control in HTML refers to any interactive element within a form that allows users to input data or select
+      <!-- A form control in HTML refers to any interactive element within a form that allows users to input data or select
         options. Form controls are the building blocks of web forms and include elements such as:
 
         Text Input: <input type="text"> for single-line text input.
@@ -88,11 +134,17 @@
 
         These elements allow users to interact with the form and provide the necessary data that can be submitted to a server for processing. -->
 
-        <input type="text" placeholder="Enter you username" id="username" name="username" value="default">
+      <input
+        type="text"
+        placeholder="Enter you username"
+        id="username"
+        name="username"
+        value="default"
+      />
 
-        <!-- id, name, value -->
+      <!-- id, name, value -->
 
-        <!-- In an HTML input field, the id, name, and value attributes have specific roles:
+      <!-- In an HTML input field, the id, name, and value attributes have specific roles:
 
         id: This is a unique identifier for the input field. It helps to link the input field with a label using the for
         attribute and can also be used in JavaScript to manipulate or access the input field.
@@ -101,10 +153,9 @@
         entered in the input field is sent to the server with this name.
         
         value: This attribute sets the initial value of the input field. It can also be used to get or set the value of the input field in JavaScript. -->
-
     </form>
 
-    <!-- SEMANTIC HTML (HTML5) -->
+    <!-- SEMANTIC HTML TAGS (HTML5) -->
 
     <header></header>
     <footer></footer>
@@ -112,6 +163,26 @@
     <section></section>
     <aside></aside>
     <nav></nav>
-</body>
 
+    <!-- AUDIO AND VIDEO TAG -->
+
+    <audio src="fiverr.mp3" controls></audio>
+
+    <video width="320" height="240" controls>
+      <source src="" type="video/mp4" />
+    </video>
+
+    <!-- Embed Youtube Video -->
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/Sxs6ivJ5A_w?si=yxKDHXEpyuVZvQGD"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
 </html>
