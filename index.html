@@ -1,188 +1,173 @@
 <!DOCTYPE html>
-
-<!-- The <!DOCTYPE html> declaration is used to define the document type and version of HTML being used. In modern web development, this declaration specifies that the document is an HTML5 document. -->
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- UTF-8 stands for "Unicode Transformation Format - 8-bit."  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- In HTML, a meta tag is used to provide metadata about the HTML document. Metadata is information about the data on the page, which   doesn't appear on the web page itself but is processed by web browsers and search engines. Meta tags are placed inside the <head>   section   of the HTML document.
-
-    Here are some common uses of meta tags:
-        
-    Character Set Declaration: Defines the character encoding for the HTML document. For example, <meta charset="UTF-8"> sets the characterencoding to UTF-8.
-        
-    Viewport Settings for Responsive Design: Specifies how the page should be displayed on mobile devices. For instance, <metaname="viewport" content="width=device-width, initial-scale=1"> tells the browser to set the width of the page to follow the screen-width of the device, and the initial zoom level when the page is first loaded should be 1.
-        
-    Description: Provides a brief description of the page, which search engines can use as a snippet in search results: <metaname="description" content="A brief description of the page content goes here.">
-        
-    Keywords: Specifies a list of keywords about the page. This used to be important for search engine optimization (SEO), but it is largelyignored by modern search engines due to past abuse: <meta name="keywords" content="keyword1, keyword2, keyword3">
-        
-    Author: Specifies the author of the document: <meta name="author" content="Author Name">
-        
-    Refresh: Sets a time after which the page will be reloaded, or the user will be redirected to another URL: <meta http-equiv="refresh"content="30; url=http://example.com/">
-        
-    Robots: Controls how search engine crawlers should index the page or follow links: <meta name="robots" content="noindex, nofollow">
-        
-    Meta tags can be used to convey a variety of other information to the browser or to external services, making them a versatile tool increating HTML documents. -->
-
-    <title>HTML CRASH COURSE</title>
+    <meta
+      name="description"
+      content="A crash course on HTML elements and structure."
+    />
+    <meta name="author" content="Faizan" />
+    <title>HTML Crash Course</title>
   </head>
 
   <body>
     <!-- HEADING AND PARAGRAPH TAG -->
 
-    <h1>Heading</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
-      cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
-      porro exercitationem, dolorum similique delectus quibusdam, nisi
-      voluptatem?
-    </p>
-    <h2>Heading</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
-      cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
-      porro exercitationem, dolorum similique delectus quibusdam, nisi
-      voluptatem?
-    </p>
-    <h3>Heading</h3>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
-      cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
-      porro exercitationem, dolorum similique delectus quibusdam, nisi
-      voluptatem?
-    </p>
-    <h4>Heading</h4>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
-      cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
-      porro exercitationem, dolorum similique delectus quibusdam, nisi
-      voluptatem?
-    </p>
-    <h5>Heading</h5>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
-      cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
-      porro exercitationem, dolorum similique delectus quibusdam, nisi
-      voluptatem?
-    </p>
-    <h6>Heading</h6>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
-      cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
-      porro exercitationem, dolorum similique delectus quibusdam, nisi
-      voluptatem?
-    </p>
+    <h1>HTML Crash Course</h1>
+    <section>
+      <h2>Introduction</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
+        cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
+        porro exercitationem, dolorum similique delectus quibusdam, nisi
+        voluptatem?
+      </p>
+    </section>
+
+    <section>
+      <h2>Headings and Paragraphs</h2>
+      <h3>Subheading 1</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
+        cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
+        porro exercitationem, dolorum similique delectus quibusdam, nisi
+        voluptatem?
+      </p>
+      <h3>Subheading 2</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quo quas
+        cupiditate quod placeat fugit expedita ad, quasi aliquam eaque illo ut
+        porro exercitationem, dolorum similique delectus quibusdam, nisi
+        voluptatem?
+      </p>
+    </section>
 
     <!-- ORDERED AND UNORDERED LIST TAG -->
 
-    <ol>
-      <li>Cats</li>
-      <li>Dogs</li>
-      <li>Parrots</li>
-    </ol>
+    <section>
+      <h2>Lists</h2>
+      <h3>Ordered List</h3>
+      <ol>
+        <li>Cats</li>
+        <li>Dogs</li>
+        <li>Parrots</li>
+      </ol>
 
-    <ul>
-      <li>Coffee</li>
-      <li>Soft Drink</li>
-      <li>Fresh Juice</li>
-    </ul>
+      <h3>Unordered List</h3>
+      <ul>
+        <li>Coffee</li>
+        <li>Soft Drink</li>
+        <li>Fresh Juice</li>
+      </ul>
+    </section>
 
     <!-- ANCHOR TAG -->
 
-    <a href="https://youtube.com" target="">YouTube</a>
+    <section>
+      <h2>Links</h2>
+      <p>
+        Visit <a href="https://youtube.com" target="_blank">YouTube</a> for more
+        videos.
+      </p>
+    </section>
 
     <!-- IMAGE TAG -->
 
-    <img
-      src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630"
-      alt="Tree Image"
-    />
+    <section>
+      <h2>Images</h2>
+      <img
+        src=""
+        alt="Tree Image"
+      />
+    </section>
 
     <!-- DIV AND SPAN TAG -->
 
-    <div>Hello World</div>
-    <span>Hello World</span>
+    <section>
+      <h2>Div and Span Tags</h2>
+      <div>
+        <p>This is a div element that acts as a block-level container.</p>
+      </div>
+      <span>This is a span element for inline text.</span>
+    </section>
 
     <!-- FORM ELEMENT -->
 
-    <form>
-      <label for="username">Username</label>
-
-      <!-- for -->
-
-      <!-- The for attribute in the <label> tag specifies which form control (like an <input>, <textarea>, or <select>) the label is associated with. It links the label to the form control by matching the value of the for attribute with the id of the form control. This makes the form more accessible and easier to use, as clicking on the label will focus or activate the associated form control. -->
-
-      <!-- Form Control -->
-
-      <!-- A form control in HTML refers to any interactive element within a form that allows users to input data or select
-        options. Form controls are the building blocks of web forms and include elements such as:
-
-        Text Input: <input type="text"> for single-line text input.
-        Password Input: <input type="password"> for password input, which hides the entered characters.
-        Text Area: <textarea> for multi-line text input.
-        Radio Buttons: <input type="radio"> for selecting one option from a group.
-        Checkboxes: <input type="checkbox"> for selecting one or more options from a set.
-        Drop-down Lists: <select> with <option> elements for selecting from a list of options.
-        Buttons: <button>, <input type="submit">, <input type="reset">, etc., for form submission or resetting.
-        File Input: <input type="file"> for uploading files.
-        Hidden Input: <input type="hidden"> for data that is not visible to the user but is sent with the form submission.
-        Date and Time Input: <input type="date">, <input type="time">, etc., for selecting dates and times.
-
-        These elements allow users to interact with the form and provide the necessary data that can be submitted to a server for processing. -->
-
-      <input
-        type="text"
-        placeholder="Enter you username"
-        id="username"
-        name="username"
-        value="default"
-      />
-
-      <!-- id, name, value -->
-
-      <!-- In an HTML input field, the id, name, and value attributes have specific roles:
-
-        id: This is a unique identifier for the input field. It helps to link the input field with a label using the for
-        attribute and can also be used in JavaScript to manipulate or access the input field.
-
-        name: This attribute specifies the name of the input field, which is used when submitting the form. The value
-        entered in the input field is sent to the server with this name.
-        
-        value: This attribute sets the initial value of the input field. It can also be used to get or set the value of the input field in JavaScript. -->
-    </form>
+    <section>
+      <h2>Forms</h2>
+      <form>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          placeholder="Enter your username"
+          id="username"
+          name="username"
+          value="default"
+        />
+      </form>
+    </section>
 
     <!-- SEMANTIC HTML TAGS (HTML5) -->
 
-    <header></header>
-    <footer></footer>
-    <article></article>
-    <section></section>
-    <aside></aside>
-    <nav></nav>
+    <section>
+      <h2>Semantic HTML</h2>
+      <header>
+        <h3>Header</h3>
+        <p>This is the header section.</p>
+      </header>
+      <article>
+        <h3>Article</h3>
+        <p>This is an article section.</p>
+      </article>
+      <section>
+        <h3>Section</h3>
+        <p>This is a section within the article.</p>
+      </section>
+      <aside>
+        <h3>Aside</h3>
+        <p>This is an aside section.</p>
+      </aside>
+      <footer>
+        <h3>Footer</h3>
+        <p>This is the footer section.</p>
+      </footer>
+      <nav>
+        <h3>Navigation</h3>
+        <p>This is the navigation section.</p>
+      </nav>
+    </section>
 
     <!-- AUDIO AND VIDEO TAG -->
 
-    <audio src="" controls></audio>
+    <section>
+      <h2>Audio and Video</h2>
+      <h3>Audio</h3>
+      <audio src="" controls>
+        Your browser does not support the audio element.
+      </audio>
 
-    <video width="320" height="240" controls>
-      <source src="" type="video/mp4" />
-    </video>
+      <h3>Video</h3>
+      <video width="320" height="240" controls>
+        <source src="" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
 
-    <!-- Embed Youtube Video -->
+    <!-- EMBED YOUTUBE VIDEO -->
 
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/Sxs6ivJ5A_w?si=yxKDHXEpyuVZvQGD"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-    ></iframe>
+    <section>
+      <h2>Embed YouTube Video</h2>
+      <iframe
+        width="560"
+        height="315"
+        src=""
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
   </body>
 </html>
